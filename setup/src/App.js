@@ -46,8 +46,7 @@ function App() {
                 onClick={() => setValue(index)}
                 className={`job-btn ${value === index && 'active-btn'}`}
               >
-                {job.title}
-                <FaAngleDoubleRight className='right-arrow' />
+                {item.company}
               </button>
             );
           })};
